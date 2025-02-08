@@ -5,43 +5,66 @@ import "./MyWork.css";
 const MyWork = () => {
   const myProjects = [
     {
-      projectTitle: "landing page",
+      projectTitle: "Portfolio",
       category: "react",
       imgPath: "./imgs/1.png",
+      link: "https://myportfolio-livid-rho.vercel.app/",
+      github: "https://github.com/DoaaMahmoud0/MyPortfolio2",
+
     },
     {
-      projectTitle: "landing page",
+      projectTitle: "Portfolio",
       category: "react",
       imgPath: "./imgs/2.png",
+      link: "my-portfolio2-navy.vercel.app",
+      github: "https://github.com/DoaaMahmoud0/MyPortfolio2",
+
     },
-    { projectTitle: "landing page", category: "css", imgPath: "./imgs/3.png" },
+    {
+      projectTitle: "Restaurant Website",
+      category: "css",
+      imgPath: "./imgs/3.png",
+      link: "https://doaamahmoud0.github.io/little-lemon/",
+      github: "https://github.com/DoaaMahmoud0/little-lemon",
+
+    },
     {
       projectTitle: "landing page",
       category: "css",
       imgPath: "./imgs/PSD.png",
+      link: "https://doaamahmoud0.github.io/LandingPage/",
+      github: "https://github.com/DoaaMahmoud0/LandingPage",
+
     },
     {
-      projectTitle: "Landing Page",
+      projectTitle: "Courses Website",
+      category: "css",
+      imgPath: "./imgs/9.png",
+      link: "https://doaamahmoud0.github.io/Nouvil/",
+      github: "https://github.com/DoaaMahmoud0/Nouvil"
+    },
+    {
+      projectTitle: "Coffe Website",
       category: "react",
       imgPath: "./imgs/1.jpg",
     },
     {
-      projectTitle: "Landing Page",
+      projectTitle: "Shoes Website",
       category: "react",
       imgPath: "./imgs/3.jpg",
     },
     {
-      projectTitle: "Landing Page",
+      projectTitle: "Cars Website",
       category: "react",
       imgPath: "./imgs/5.jpg",
     },
     {
-      projectTitle: "Landing Page",
+      projectTitle: "Portfolio",
       category: "react",
       imgPath: "./imgs/6.jpg",
     },
     {
-      projectTitle: "Landing Page",
+      projectTitle: "Furniture Website",
       category: "react",
       imgPath: "./imgs/7.jpg",
     },
@@ -51,15 +74,11 @@ const MyWork = () => {
       imgPath: "./imgs/8.jpg",
     },
     {
-      projectTitle: "Landing Page",
+      projectTitle: "Watches Website",
       category: "react",
       imgPath: "./imgs/b.png",
     },
-    {
-      projectTitle: "Landing Page",
-      category: "react",
-      imgPath: "./imgs/q.png",
-    },
+   
   ];
 
   const [currentActive, setcurrentActive] = useState("all");
@@ -75,7 +94,7 @@ const MyWork = () => {
   };
 
   return (
-    <div className="mywork">
+    <div className="mywork" id="Projects">
       <div className="mywork-title">
         <h1>My Latest Work</h1>
       </div>
@@ -133,7 +152,13 @@ const MyWork = () => {
 
                     <div className="icons flex">
                       <div style={{ gap: "11px" }} className="flex">
-                        <div className="icon-link"></div>
+                        <a
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer">
+                          {" "}
+                          <div className="icon-link"></div>
+                        </a>
                         <div className="icon-github"></div>
                       </div>
                       <a className="link flex" href="">

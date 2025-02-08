@@ -4,16 +4,16 @@ const Footer = () => {
     <footer className="flex">
       <ul className="flex">
         <li>
-          <a href="About">About</a>
+          <a href="#About">About</a>
         </li>
         <li>
-          <a href="Projects">Projects</a>
+          <a href="#Projects">Projects</a>
         </li>
         <li>
-          <a href="Speaking">Speaking</a>
+          <a href="#Skills">Skills</a>
         </li>
         <li>
-          <a href="Uses">Uses</a>
+          <a href="#Contact">Contact</a>
         </li>
       </ul>
 

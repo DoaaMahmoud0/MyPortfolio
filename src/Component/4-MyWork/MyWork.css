@@ -19,8 +19,9 @@ Table of content
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 40px 170px;
     color: var(--title);
+    padding-top: 80px;
 
   }
 

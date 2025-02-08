@@ -8,11 +8,12 @@ const Hero = () => {
         <h1><span>I&apos;m Doaa Mahmoud,</span> Frontend Developer </h1>
         <p>As a passionate and detail-oriented Frontend Developer, I specialize in creating responsive, user-friendly websites and applications.</p>
       <div className="connectAction">
-        <button className='connectBtn'>Connect with me</button>
+     
+      <a href='#Contact'style={{color:"var(--title)"}}> <button className='connectBtn'>Connect with me</button></a>
 
       </div>
     </div>
-  )
+  ) 
 }
 
 export default Hero

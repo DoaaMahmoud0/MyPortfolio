@@ -46,6 +46,8 @@
     color: var(--title)
     cursor: pointer;
 }
+
+
 .connectBtn:hover{
     border: 2px solid white;
 }

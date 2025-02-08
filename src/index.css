@@ -113,7 +113,7 @@ html {
   scrollbar-color: #201c4ad0 #3d4a59;
 }
 
-.scrol2up {
+.scrol2top {
   position: fixed;
   width: 2.4rem;
   height: 2.4rem;
@@ -127,7 +127,7 @@ html {
 }
 
 
-.scrol2up:hover {
+.scrol2top:hover {
     background-color:rgb(25 118 210);
 
 
